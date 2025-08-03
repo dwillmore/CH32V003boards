@@ -6,3 +6,9 @@ All boards have USB-C connections for data and/or power.  The data is connected 
 The on board 3.3V regulator can be left off and bypassed to run the board on Vbus power.  The regulator is used for when the D+/D- lines are connected to use use from the CH32V003 via rv003usb.  
 
 The three pin header is for plugging in a debugger like the funprog or WCH Link-E.  It exposes Vcc, SWD, and GND.
+
+New for V4:
+- Change to the popular 1117 style regulator.
+- Increase size of decoupling caps to 1206
+- Move as many components to the front as possible (not an option on 8 pin) to improve manufacturability
+- Add 16 pin variant by popular demand
